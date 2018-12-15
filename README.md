@@ -28,6 +28,11 @@ Another idea I have for the temperature probe is to record the actual wire tempe
 box. There are a number of factors that could cause high temperatures on the electricity wiring and it may also be 
 useful to collect such information.
 
+### References
+
+The most helpful site for this project was [Learn openEnergyMonitor site](https://learn.openenergymonitor.org). The site 
+contains a lot of theory and other useful notes, including the calibration process. Make sure to check it out!
+
 ## Status as on 2018-12-15
 
 The initial experiments in a controlled lab environment produced some encouraging results. The README at this point 
@@ -70,8 +75,8 @@ experiment.
 | DS18B20 Temperature Probe Sensor              |      60.01 | http://www.communica.co.za/Catalog/Details/P3958148566 | Pick a waterproof one - just for incase :-)                                                                           |
 | SME STACKABLE SD CARD SHIELD V3               |      95.83 | http://www.communica.co.za/Catalog/Details/P2363846356 | I did not include the cost of the SD card as I am sure everyone must have a couple lying around they can use.         |
 | USB Cable for the Arduino (aka Printer Cable) |      25.70 | http://www.communica.co.za/Catalog/Details/P1837703657 | I used a spare one - I have a whole lot of assorted cables collected over the years :-)                               |
-| 4.7k Resistor                                 |       0.09 | http://www.communica.co.za/Catalog/Details/P3423848296 | I did not buy this online. I used some spairs I have left from a previous resistor kit/pack I purchased from SparkFun |
-| Header Pins                                   |       0.4* | http://www.communica.co.za/Catalog/Details/P3333231207 | Used for convienence of connecting the probe to the Arduino.                                                          |
+| 4.7k Resistor                                 |       0.09 | http://www.communica.co.za/Catalog/Details/P3423848296 | I did not buy this online. I used some spares I have left from a previous resistor kit/pack I purchased from SparkFun |
+| Header Pins                                   |       0.4* | http://www.communica.co.za/Catalog/Details/P3333231207 | Used for convenience of connecting the probe to the Arduino.                                                          |
 | Strip Grid Experimental Board                 |       0.2* | http://www.communica.co.za/Catalog/Details/P3913707199 | Only used a tiny piece - 3x3 holes required. 
 
 \* Price Estimated
@@ -103,8 +108,19 @@ Some other observations:
 
 Overall I am satisfied with the initial experiment. Ready to move on to the next phase.
 
-## Final Note
+## Where to from here (planned work)
 
-I am still updating the documentation and notes - more commits to follow...
+* Programmatically introduce the concept of batches and record data records in separate batch files
+* Integrate a RTC
+* Integrate a GPRS module/shield
+* Send data to a remote server (in batches)
+
+Much further in the future:
+
+* Move from Arduino platform to a proper minimalist prototype
+* Create a production PCB design from the prototype in something like [Eagle](https://www.autodesk.com/products/eagle/overview)
+* Manufacture a small production batch for wider field testing 
+
+______
 
 ![Arduino Project](images/arduino-computer-software-library-electronics-arduino-logo-small.png)
