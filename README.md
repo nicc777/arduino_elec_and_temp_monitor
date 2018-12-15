@@ -57,7 +57,7 @@ experiment.
 
 \* Price Estimated
 
-I also used some solder. I estimated my total cost just over ZAR660.00
+I also used some solder. I estimated my total cost just over ZAR660.00 (or about US$46.00 as on 2018-12-15)
 
 ## Final Note
 
