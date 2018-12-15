@@ -68,3 +68,5 @@ minutes while using a kettle to boil some water. The clamp was placed around the
 ## Final Note
 
 I am still updating the documentation and notes - more commits to follow...
+
+![Arduino Project](images/arduino-computer-software-library-electronics-arduino-logo-small.png)
