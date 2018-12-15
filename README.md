@@ -48,16 +48,22 @@ experiment.
 |-----------------------------------------------|------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Arduino UNO rev 3                             |     305.00 | http://www.communica.co.za/Catalog/Details/P1424521842 | I have a number of UNO's lying around so I used an old one.                                                           |
 | Arduino Energy Monitoring Shield              |     150.01 | http://www.communica.co.za/Catalog/Details/P3308369411 |   |
+| AC Current Sensor Clamp                       |     130.00 | http://www.communica.co.za/Catalog/Details/P3569610177 |   |
 | DS18B20 Temperature Probe Sensor              |      60.01 | http://www.communica.co.za/Catalog/Details/P3958148566 | Pick a waterproof one - just for incase :-)                                                                           |
 | SME STACKABLE SD CARD SHIELD V3               |      95.83 | http://www.communica.co.za/Catalog/Details/P2363846356 | I did not include the cost of the SD card as I am sure everyone must have a couple lying around they can use.         |
 | USB Cable for the Arduino (aka Printer Cable) |      25.70 | http://www.communica.co.za/Catalog/Details/P1837703657 | I used a spare one - I have a whole lot of assorted cables collected over the years :-)                               |
 | 4.7k Resistor                                 |       0.09 | http://www.communica.co.za/Catalog/Details/P3423848296 | I did not buy this online. I used some spairs I have left from a previous resistor kit/pack I purchased from SparkFun |
 | Header Pins                                   |       0.4* | http://www.communica.co.za/Catalog/Details/P3333231207 | Used for convienence of connecting the probe to the Arduino.                                                          |
-| Strip Grid Experimental Board                 |       0.2* | http://www.communica.co.za/Catalog/Details/P3913707199 | Only used a tiny piece - 3x3 holes required.                                                                          |
+| Strip Grid Experimental Board                 |       0.2* | http://www.communica.co.za/Catalog/Details/P3913707199 | Only used a tiny piece - 3x3 holes required. 
 
 \* Price Estimated
 
-I also used some solder. I estimated my total cost just over ZAR660.00 (or about US$46.00 as on 2018-12-15)
+I also used some solder. I estimated my total cost just over ZAR790.00 (or about US$55.00 as on 2018-12-15)
+
+## Experimental Results
+
+The data captured can be viewed in the file `sample_data/DATALOG.TXT` - it covers a recording period just shy of 7 
+minutes while using a kettle to boil some water. The clamp was placed around the live wire (brown).
 
 ## Final Note
 
