@@ -52,8 +52,10 @@ experiment.
 | SME STACKABLE SD CARD SHIELD V3               |      95.83 | http://www.communica.co.za/Catalog/Details/P2363846356 | I did not include the cost of the SD card as I am sure everyone must have a couple lying around they can use.         |
 | USB Cable for the Arduino (aka Printer Cable) |      25.70 | http://www.communica.co.za/Catalog/Details/P1837703657 | I used a spare one - I have a whole lot of assorted cables collected over the years :-)                               |
 | 4.7k Resistor                                 |       0.09 | http://www.communica.co.za/Catalog/Details/P3423848296 | I did not buy this online. I used some spairs I have left from a previous resistor kit/pack I purchased from SparkFun |
-| Header Pins                                   |       0.46 | http://www.communica.co.za/Catalog/Details/P3333231207 | Used for convienence of connecting the probe to the Arduino.                                                          |
-| Strip Grid Experimental Board                 |       0.20 | http://www.communica.co.za/Catalog/Details/P3913707199 | Only used a tiny piece - 3x3 holes required.                                                                          |
+| Header Pins                                   |       0.4* | http://www.communica.co.za/Catalog/Details/P3333231207 | Used for convienence of connecting the probe to the Arduino.                                                          |
+| Strip Grid Experimental Board                 |       0.2* | http://www.communica.co.za/Catalog/Details/P3913707199 | Only used a tiny piece - 3x3 holes required.                                                                          |
+
+\* Price Estimated
 
 I also used some solder. I estimated my total cost just over ZAR660.00
 
