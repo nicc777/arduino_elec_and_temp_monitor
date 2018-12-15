@@ -248,7 +248,7 @@ void loop()
 }
 
 
-/* 12345678901234567890123456789012345678901234567890123456789012345678901234567890
+/* 
  * LICENSE
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy of 
