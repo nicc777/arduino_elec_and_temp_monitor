@@ -41,7 +41,7 @@ This section may be removed in future updates.
 ## Assembly
 
 Below is a series of photos that illustrate the setup of the hardware and the experiment. Original sized images are in 
-the `images/` directory, or right click an view image:
+the `images/` directory, or right click and view image:
 
 | Image | Description |
 |-------|-------------|
@@ -55,7 +55,6 @@ the `images/` directory, or right click an view image:
 | <img src="images/20181215_102541804_iOS.jpg" alt="Assembled unit" width="200"/> | The AC Current Sensor Clamp fit over the live wire of the kettle cord |
 | <img src="images/20181215_102559115_iOS.jpg" alt="Assembled unit" width="200"/> | Placement of the Temperature Probe for the experiment |
 | <img src="images/20181215_102611815_iOS.jpg" alt="Assembled unit" width="200"/> | Another angle of of the Temperature Sensor placement in the kettle |
-
 
 ## Parts List
 
@@ -83,6 +82,26 @@ I also used some solder. I estimated my total cost just over ZAR790.00 (or about
 
 The data captured can be viewed in the file `sample_data/DATALOG.TXT` - it covers a recording period just shy of 7 
 minutes while using a kettle to boil some water. The clamp was placed around the live wire (brown).
+
+Also refer to the following graph (Original sized image are in the `images/` directory, or right click and view image):
+
+<img src="images/data_graph.png" alt="Assembled unit" width="600"/>
+
+From a quick google, [some](https://www.electricalsafetyfirst.org.uk/guidance/safety-around-the-home/home-appliances-ratings/) 
+[sources](https://uk.answers.yahoo.com/question/index?qid=20061207115852AASVbcL) confirmed around 13 Amps for the kettle is well 
+within the expected range, even without any calibration!
+
+The temperature only really started to spike at the end due to the boiling water splashing against the temperature 
+probe. In the build-up to just before the water boiled, there was not a huge increase in temperature as I also confirmed 
+(carefully) with my hand.
+
+Some other observations:
+
+* Without a Real Time Clock (or RTC) it is rather a mission to add timestamps to the line entries in the log file. I will add a RTC in the near future. 
+* The data log file could grow significantly and I will have to implement some kind of file rotation function = perhaps as soon as the file size reaches 10MiB. The other option is to record data in batches (see next point)
+* In preparation for sending data via GPRS, I thought it may be a good idea to send data in batches as it may save on battery usage for the GPRS shield. All batched data can be in separate files. I may also need to add a tracking file to see which batches have been successfully transmitted.
+
+Overall I am satisfied with the initial experiment. Ready to move on to the next phase.
 
 ## Final Note
 
