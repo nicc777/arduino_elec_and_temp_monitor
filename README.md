@@ -38,6 +38,25 @@ the point of the experiment.
 
 This section may be removed in future updates.
 
+## Assembly
+
+Below is a series of photos that illustrate the setup of the hardware and the experiment. Original sized images are in 
+the `images/` directory, or right click an view image:
+
+| Image | Description |
+|-------|-------------|
+| <img src="images/20181215_101302761_iOS.jpg" alt="Assembled unit" width="200"/> | Assembled unit   |
+| <img src="images/20181215_101307415_iOS.jpg" alt="Assembled unit" width="200"/> | The wiring   |
+| <img src="images/20181215_101417147_iOS.jpg" alt="Assembled unit" width="200"/> | Quick improvised connection for the temperature sensor |
+| <img src="images/20181215_101530103_iOS_zoomed.jpg" alt="Assembled unit" width="200"/> | Flip side of the temperature sensor connector, zoomed |
+| <img src="images/20181215_101753814_iOS_highlighted.jpg" alt="Assembled unit" width="200"/> | The SD card had to be in the middle due to the Electronic Monitor Shield not having all the required connectors |
+| <img src="images/20181215_101833177_iOS_highlighted.jpg" alt="Assembled unit" width="200"/> | Some pins had to be bent to make the Electricity Monitor Shield fit properly onto the SD Shield |
+| <img src="images/20181215_101905358_iOS.jpg" alt="Assembled unit" width="200"/> | The AC Current Sensor Clamp plugged in |
+| <img src="images/20181215_102541804_iOS.jpg" alt="Assembled unit" width="200"/> | The AC Current Sensor Clamp fit over the live wire of the kettle cord |
+| <img src="images/20181215_102559115_iOS.jpg" alt="Assembled unit" width="200"/> | Placement of the Temperature Probe for the experiment |
+| <img src="images/20181215_102611815_iOS.jpg" alt="Assembled unit" width="200"/> | Another angle of of the Temperature Sensor placement in the kettle |
+
+
 ## Parts List
 
 Below I list the parts used with links and perhaps other useful information such as material cost at the time of the 
